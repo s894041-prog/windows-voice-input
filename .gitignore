@@ -1,0 +1,20 @@
+# 機密
+.env
+.env.*
+!.env.example
+*.local
+secrets.*
+
+# Claude 個人設定
+.claude/
+settings.local.json
+CLAUDE.local.md
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 錄音暫存
+*.wav
